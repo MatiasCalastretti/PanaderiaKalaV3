@@ -200,8 +200,21 @@ footer {
         margin-top: 3px;
     }
 
+    /*animación*/
     h1 {
         font-size: 12vh;
+        animation-duration: 1s;
+        animation-name: aparecer;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     h2 {
@@ -228,6 +241,20 @@ footer {
     .imgProducto {
         height: 30vh;
         width: 30vh;
+
+        /*animación*/
+        animation-duration: 1s;
+        animation-name: aparecer;
+        animation-iteration-count: 1;
+    }
+
+    @keyframes aparecer {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     .divProducto {
