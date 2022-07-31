@@ -230,7 +230,7 @@ footer {
         width: 30vh;
 
         /*animación*/
-        animation-duration: 1s;
+        animation-duration: 1.3s;
         animation-name: aparecer;
         animation-iteration-count: 1;
     }
