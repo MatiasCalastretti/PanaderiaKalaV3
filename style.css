@@ -200,21 +200,8 @@ footer {
         margin-top: 3px;
     }
 
-    /*animación*/
     h1 {
         font-size: 12vh;
-        animation-duration: 1s;
-        animation-name: aparecer;
-        animation-iteration-count: 1;
-    }
-
-    @keyframes aparecer {
-        0% {
-            opacity: 0;
-        }
-        100% {
-            opacity: 1;
-        }
     }
 
     h2 {
@@ -236,6 +223,74 @@ footer {
     
     #barraNavegacion a{
         font-size: 5vh;
+    }
+
+    /*animación*/
+    .panaderiaClasica{
+        animation-duration: 0,30s;
+        animation-name: aparecerClasica;
+        animation-iteration-count: 1;
+    }
+    @keyframes aparecerClasica {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .panaderiaMasaMadre{
+        animation-duration: 0.60s;
+        animation-name: aparecerMasaMadre;
+        animation-iteration-count: 1;
+    }
+    @keyframes aparecerMasaMadre {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .panaderiaFrancesa{
+        animation-duration: 0.90s;
+        animation-name: aparecerFrancesa;
+        animation-iteration-count: 1;
+    }
+    @keyframes aparecerFrancesa {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .panaderiaBizcocheria{
+        animation-duration: 1.2s;
+        animation-name: aparecerBizcocheria;
+        animation-iteration-count: 1;
+    }
+    @keyframes aparecerBizcocheria {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+    .panaderiaPasteleria{
+        animation-duration: 1.50s;
+        animation-name: aparecerPasteleria;
+        animation-iteration-count: 1;
+    }
+    @keyframes aparecerPasteleria {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
     }
 
     .imgProducto {
